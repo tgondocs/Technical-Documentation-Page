@@ -1,0 +1,141 @@
+body {
+	width: 100%;
+	margin: 0;
+}
+
+#navbar {
+	float: left;
+	position: fixed;
+	min-width: 20vw;
+	max-height: 100vh;
+	margin: 0;
+	
+}
+
+#leftcon {
+	min-width: 20vw;
+	display: flex;
+	align-items: flex-start;
+	margin: 0;
+	position: fixed;
+	overflow: scroll;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+	
+#title {
+	position: fixed;
+	box-sizing: border-box;
+	top: 0;
+	left: 0;
+	width: 270px;
+	background-color: white;
+	text-align: left;
+	margin: 0;
+	font-weight: bold;
+	padding: 15px;
+	z-index: 2;
+}
+
+#theme {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100vh;
+	padding-top: 64px;
+	margin: 0;
+}
+
+#theme ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#theme li {
+	padding: 15px;
+	font-size: 1.2em;
+	border-top: solid black 1px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+	
+#right {
+	position: absolute;
+	right: 5px;
+	max-width: 80vw;
+	line-height: 1.8em;
+	margin-left: 320px;
+	height: 100vh;
+	text-align: left;
+}
+
+header {
+	width: 100%;
+	font-size: 1.8em;
+	font-weight: bold;
+	padding: 10px 0;
+	margin: 0;
+	text-align: left;
+}
+
+.example {
+	background-color: rgb(215, 218, 251);
+	margin: 0 15px;
+	padding: 10px;
+}
+
+.one-tab {
+	padding-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {	
+	#navbar {
+		height: 300px;
+		width: 100%;
+		position: static;
+		display: inline-block;
+	}
+	
+#title {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}	
+	
+	#leftcon {
+		position: relative;
+		box-sizing: border-box;
+		top: 50px;
+		width: 100%;
+		height: 320px;
+		overflow: auto;
+		margin: 0;
+		padding: 0;
+		border-top: solid black 2px;
+		border-bottom: solid black 2px;
+	}
+		
+	#theme {
+		padding-top: 0;
+	}
+	
+	#firstli {
+		border-style: none !important;
+	}
+	
+	#main-doc {
+		margin-top: 100px;
+		display: inline-block;
+		left: 0;
+		width: 100%;
+	}
+	
+	#right {
+		margin-left: 20px;
+		padding-right: 10px;
+	}
+}
