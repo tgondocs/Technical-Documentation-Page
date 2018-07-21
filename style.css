@@ -6,14 +6,14 @@ body {
 #navbar {
 	float: left;
 	position: fixed;
-	min-width: 20vw;
+	min-width: 30vw;
 	max-height: 100vh;
 	margin: 0;
 	
 }
 
 #leftcon {
-	min-width: 20vw;
+	min-width: 30vw;
 	display: flex;
 	align-items: flex-start;
 	margin: 0;
@@ -29,7 +29,7 @@ body {
 	box-sizing: border-box;
 	top: 0;
 	left: 0;
-	min-width: 20vw;
+	min-width: 30vw;
 	background-color: white;
 	text-align: left;
 	margin: 0;
@@ -40,7 +40,7 @@ body {
 
 #theme {
 	box-sizing: border-box;
-	width: 20vw;
+	width: 30vw;
 	height: 100vh;
 	padding-top: 64px;
 	margin: 0;
@@ -66,7 +66,7 @@ a {
 #right {
 	position: absolute;
 	right: 5px;
-	max-width: 80vw;
+	max-width: 70vw;
 	line-height: 1.8em;
 	margin-left: 320px;
 	height: 100vh;
